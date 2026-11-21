@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A multilingual introduction to Christ through classic Adventist books.">
+  <title>Adventist Booklet</title>
+  <style>
+    :root { color-scheme: light; --ink: #20302b; --green: #245c48; --paper: #f7f6f0; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--paper); font: 1rem/1.6 system-ui, sans-serif; }
+    header { padding: 3rem 1.25rem 2rem; text-align: center; color: white; background: var(--green); }
+    header img { width: min(100%, 560px); max-height: 270px; object-fit: cover; border-radius: 1rem; }
+    header h1 { margin: 1rem 0 .25rem; }
+    main { width: min(100% - 2rem, 960px); margin: 2rem auto; }
+    h2 { color: var(--green); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+    article { padding: 1.2rem; background: white; border-radius: .8rem; box-shadow: 0 2px 12px #20302b12; }
+    a { color: var(--green); font-weight: 650; }
+    footer { padding: 1.5rem; text-align: center; color: #52635c; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/cover.svg" alt="Illustrated landscape with a cross and the title Adventist Booklet">
+    <h1>Adventist Booklet</h1>
+    <p>Discover the life and teachings of Jesus through classic Christian reading.</p>
+  </header>
+  <main>
+    <section>
+      <h2>Reading guides</h2>
+      <div class="grid">
+        <article><h3>Steps to Christ</h3><p>An introduction to knowing Jesus and growing in faith.</p><a href="books/steps-to-christ.md">Open reading guide</a></article>
+        <article><h3>The Great Controversy</h3><p>A historical and spiritual account of the conflict between good and evil.</p><a href="books/great-controversy.md">Open reading guide</a></article>
+        <article><h3>The Desire of Ages</h3><p>A portrait of Jesus’ life, ministry, compassion, death, and resurrection.</p><a href="books/desire-of-ages.md">Open reading guide</a></article>
+      </div>
+    </section>
+    <section>
+      <h2>Languages</h2>
+      <ul>
+        <li><a href="languages/english.md">English</a></li>
+        <li><a href="languages/kiswahili.md">Kiswahili</a></li>
+        <li><a href="languages/kalenjin.md">Kalenjin</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer><p>Made for thoughtful reading and learning about Christ.</p></footer>
+</body>
+</html>
